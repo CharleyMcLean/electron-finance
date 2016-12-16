@@ -1,0 +1,13 @@
+{
+  "name": "Prices",
+  "version": "1.0.0",
+  "description": "Prices of commodities",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.4.12"
+  }
+}
