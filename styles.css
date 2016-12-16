@@ -64,6 +64,10 @@
   color: #403600;
 }
 
+h4 small {
+  color: black;
+}
+
 html, body, .container-fluid {
   height: 100%;
 }
