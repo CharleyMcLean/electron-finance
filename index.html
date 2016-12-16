@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-    <title>Current Prices</title>
+        <title>Alex's Funds</title>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="./vendor/bootstrap-3.3.7.css">
-    <link rel="stylesheet" href="./styles.css">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./vendor/bootstrap-3.3.7.css">
+        <link rel="stylesheet" href="./styles.css">
 
-    <!-- Scripts -->
-    <script>delete module.exports</script>
-    <script src="./vendor/jquery-3.1.1.js"></script>
-    <script src="./window.js" charset="utf-8"></script>
+        <!-- Scripts -->
+        <script>delete module.exports</script>
+        <script src="./vendor/jquery-3.1.1.js"></script>
+        <script src="./window.js" charset="utf-8"></script>
 
-  </head>
-  <body>
+    </head>
+
+    <body>
     <div id="container" class="container-fluid">
 
-      <!-- Oil Row -->
-      <div class="row oil">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-          <h1>Oil <small>per barrel</small></h1>
-          <h2>
-            <span id="oil-price" class="price"></span>
-            <small id="oil-change" class="change"></small>
-          </h2>
+        <!-- SMLPX Row -->
+        <div class="row smlpx" id="smplx">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                <h1>SMLPX <small></small></h1>
+                <h2>
+                    <span id="smlpx-price" class="price"></span>
+                    <small id="smlpx-change" class="change"></small>
+                    <small id="smlpx-percentChange" class="percentChange"></small>
+                </h2>
+            </div>
         </div>
-      </div>
 
-      <!-- Gold Row -->
-      <div class="row gold">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <h1>Gold <small>per ounce</small></h1>
-          <h2>
-            <span id="gold-price" class="price"></span>
-            <small id="gold-change" class="change"></small>
-          </h2>
+        <!-- SRPFX Row -->
+        <div class="row srpfx">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>SRPFX <small></small></h1>
+                <h2>
+                    <span id="srpfx-price" class="price"></span>
+                    <small id="srpfx-change" class="change"></small>
+                    <small id="srpfx-percentChange" class="percentChange"></small>
+                </h2>
+            </div>
         </div>
-      </div>
 
-      <!-- Silver Row -->
-      <div class="row silver">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <h1 class="silver">Silver <small>per ounce</small></h1>
-          <h2>
-            <span id="silver-price" class="price"></span>
-            <small id="silver-change" class="change"></small>
-          </h2>
+        <!-- KIFAX Row -->
+        <div class="row kifax">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="kifax">KIFAX <small></small></h1>
+                <h2>
+                    <span id="kifax-price" class="price"></span>
+                    <small id="kifax-change" class="change"></small>
+                    <small id="kifax-percentChange" class="percentChange"></small>
+                </h2>
+            </div>
         </div>
-      </div>
+
+        <!-- AHBAX Row -->
+        <div class="row ahbax">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="ahbax">AHBAX <small></small></h1>
+                <h2>
+                    <span id="ahbax-price" class="price"></span>
+                    <small id="ahbax-change" class="change"></small>
+                    <small id="ahbax-percentChange" class="percentChange"></small>
+                </h2>
+            </div>
+        </div>
+
+        <!-- KGIYX Row -->
+        <div class="row kgiyx">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="kgiyx">KGIYX <small></small></h1>
+                <h2>
+                    <span id="kgiyx-price" class="price"></span>
+                    <small id="kgiyx-change" class="change"></small>
+                    <small id="kgiyx-percentChange" class="percentChange"></small>
+                </h2>
+            </div>
+        </div>
 
     </div>
-  </body>
+    </body>
 </html>

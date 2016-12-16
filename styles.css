@@ -1,16 +1,37 @@
-.gold, .gold small {
-  background-color: gold;
+/* silver: #C0C0C0 */
+/* green: #4A9A33 */
+/* orange: #F79A33 */
+/* red: #D74338 */
+
+
+.srpfx, .srpfx small {
+  /*silver background*/
+  background-color: #C0C0C0; 
   color: #403600;
 }
 
-.silver, .silver small {
-  background-color: silver;
+.kifax, .kifax small {
+  /*green background*/
+  background-color: #19FFBD;
   color: #404040;
 }
 
-.oil, .oil small {
-  background-color: black;
-  color: #E5E5E5;
+.smlpx, .smlpx small {
+  /*green background*/
+  background-color: #FFBC00;
+  color: #403600;
+}
+
+.ahbax, .ahbax small {
+  /*red background*/
+  background-color: #D74338;
+  color: #403600;
+}
+
+.kgiyx, .kgiyx small {
+  /*red background*/
+  background-color: #D74338;
+  color: #403600;
 }
 
 html, body, .container-fluid {
@@ -18,7 +39,7 @@ html, body, .container-fluid {
 }
 
 .row {
-  height: 33.33333333%;
+  height: 25%;
 }
 
 .price {
@@ -33,6 +54,16 @@ html, body, .container-fluid {
 /* Add a ) after the change */
 .change::after {
   content: ')';
+}
+
+/* Add a ( before the change */
+.percentChange::before {
+  content: '(';
+}
+
+/* Add a ) after the change */
+.percentChange::after {
+  content: '%)';
 }
 
 /* Add a $ before the price */
