@@ -1,36 +1,66 @@
-/* silver: #C0C0C0 */
-/* green: #4A9A33 */
-/* orange: #F79A33 */
-/* red: #D74338 */
+/* silver: #CAC1BC */
+/* green: #3B7E47 */
+/* orange: #EFA22C */
+/* red: #BC193E */
 
 
-.srpfx, .srpfx small {
+.srpfx, .srpfx  {
   /*silver background*/
-  background-color: #C0C0C0; 
+  background-color: #CAC1BC; 
   color: #403600;
 }
 
-.kifax, .kifax small {
+.kifax, .kifax  {
   /*green background*/
-  background-color: #19FFBD;
-  color: #404040;
+  background-color: #3B7E47;
+  color: #E5E5E5;
 }
 
-.smlpx, .smlpx small {
+.smlpx, .smlpx {
   /*green background*/
-  background-color: #FFBC00;
-  color: #403600;
+  background-color: #3B7E47 !important;
+  color: #E5E5E5;
 }
 
-.ahbax, .ahbax small {
+.ahbax, .ahbax  {
   /*red background*/
-  background-color: #D74338;
+  background-color: #BC193E;
+  color: #E5E5E5;
+}
+
+.kgiyx, .kgiyx  {
+  /*orange background*/
+  background-color: #EFA22C;
   color: #403600;
 }
 
-.kgiyx, .kgiyx small {
+.sptix, .sptix  {
+  /*silver background*/
+  background-color: #CAC1BC;
+  color: #403600;
+}
+
+.fidmx, .fidmx  {
   /*orange background*/
-  background-color: #F79A33;
+  background-color: #EFA22C;
+  color: #403600;
+}
+
+.fprex, .fprex  {
+  /*green background*/
+  background-color: #3B7E47;
+  color: #E5E5E5;
+}
+
+.fdytx, .fdytx  {
+  /*orange background*/
+  background-color: #EFA22C;
+  color: #403600;
+}
+
+.acgax, .acgax  {
+  /*silver background*/
+  background-color: #CAC1BC;
   color: #403600;
 }
 
@@ -39,7 +69,7 @@ html, body, .container-fluid {
 }
 
 .row {
-  height: 25%;
+  height: 20%;
 }
 
 .price {

@@ -4,9 +4,14 @@ $(function () {
 var stocks = [
   "SMLPX", // SMLPX, https://finance.yahoo.com/quote/SMLPX?p=SMLPX
   "SRPFX", // SRPFX, https://finance.yahoo.com/quote/SRPFX?p=SRPFX
-  "KIFAX",  // KIFAX, https://finance.yahoo.com/quote/KIFAX/?p=KIFAX
+  "KIFAX", // KIFAX, https://finance.yahoo.com/quote/KIFAX/?p=KIFAX
   "AHBAX", // AHBAX, https://finance.yahoo.com/quote/AHBAX/?p=AHBAX
   "KGIYX", // KGIYX, https://finance.yahoo.com/quote/KGIYX/?p=KGIYX
+  "SPTIX", // SPTIX, https://finance.yahoo.com/quote/SPTIX/?p=SPTIX
+  "FIDMX", // FIDMX, https://finance.yahoo.com/quote/FIDMX/?p=FIDMX
+  "FPREX", // FPREX, https://finance.yahoo.com/quote/FPREX/?p=FPREX
+  "FDYTX", // FDYTX, https://finance.yahoo.com/quote/FDYTX/?p=FDYTX
+  "ACGAX", // ACGAX, https://finance.yahoo.com/quote/ACGAX/?p=ACGAX
 ];
 
 var fields = 'f=pl1'; // Requests the current price and previous closing price
@@ -66,6 +71,26 @@ $.ajax(url).done(function (csv) {
         $('#kgiyx-price').text(currentPrice.toLocaleString());
         $('#kgiyx-change').text(change);
         $('#kgiyx-percentChange').text(percentChange);
+    } else if (i == 5) { // SPTIX
+        $('#sptix-price').text(currentPrice.toLocaleString());
+        $('#sptix-change').text(change);
+        $('#sptix-percentChange').text(percentChange);
+    } else if (i == 6) { // FIDMX
+        $('#fidmx-price').text(currentPrice.toLocaleString());
+        $('#fidmx-change').text(change);
+        $('#fidmx-percentChange').text(percentChange);
+    } else if (i == 7) { // FPREX
+        $('#fprex-price').text(currentPrice.toLocaleString());
+        $('#fprex-change').text(change);
+        $('#fprex-percentChange').text(percentChange);
+    } else if (i == 8) { // FDYTX
+        $('#fdytx-price').text(currentPrice.toLocaleString());
+        $('#fdytx-change').text(change);
+        $('#fdytx-percentChange').text(percentChange);
+    } else if (i == 9) { // ACGAX
+        $('#acgax-price').text(currentPrice.toLocaleString());
+        $('#acgax-change').text(change);
+        $('#acgax-percentChange').text(percentChange);
     }
   }
 }).fail(function (error) {
