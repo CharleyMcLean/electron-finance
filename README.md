@@ -1,11 +1,11 @@
 # Prices
 
 Simple [Electron](http://electron.atom.io) application that shows the current
-stock price of [Salient](http://www.salientpartners.com/) using the Yahoo
+stock price of [Salient](http://www.salientpartners.com/) funds using the Yahoo
 Finance API.  Cloned from [here](https://github.com/kevinsawicki/electron-samples)
 and modified.
 
-![screenshot](https://cloud.githubusercontent.com/assets/671378/21198004/6e7a3798-c1f2-11e6-8228-495de90b7797.png)
+![screenshot](https://github.com/CharleyMcLean/electron-finance/blob/master/screenshot.png?raw=true)
 
 ## Getting started
 
