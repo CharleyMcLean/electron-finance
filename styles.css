@@ -82,7 +82,7 @@ html, body, .container-fluid {
 
 /* Add a ( before the change */
 .change::before {
-  content: '(';
+  content: '($';
 }
 
 /* Add a ) after the change */
